@@ -1,4 +1,4 @@
-﻿Log file open, 04/11/18 11:46:19
+﻿Log file open, 04/11/18 16:08:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PGVR_02
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2135942063) SRandInit(2135942063).
+LogInit: Display: RandInit(-428449472) SRandInit(-428449472).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.173021
+LogStats: Stats thread started at 0.174152
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3709383).
@@ -197,726 +197,671 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.11-10.46.20:921][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.11-10.46.20:921][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.11-10.46.20:935][  0]LogInit: Computer: AMTX206-01
-[2018.04.11-10.46.20:935][  0]LogInit: User: at9amt
-[2018.04.11-10.46.20:935][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.11-10.46.20:935][  0]LogInit: High frequency timer resolution =3.328126 MHz
-[2018.04.11-10.46.20:935][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.11-10.46.20:935][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.11-10.46.20:935][  0]LogMemory: Process Physical Memory: 273.25 MB used, 273.25 MB peak
-[2018.04.11-10.46.20:935][  0]LogMemory: Process Virtual Memory: 271.70 MB used, 271.70 MB peak
-[2018.04.11-10.46.20:935][  0]LogMemory: Physical Memory: 4686.65 MB used,  11574.49 MB free, 16261.14 MB total
-[2018.04.11-10.46.20:935][  0]LogMemory: Virtual Memory: 646.37 MB used,  11574.49 MB free, 134217728.00 MB total
-[2018.04.11-10.46.21:102][  0]LogInit: Using OS detected language (en-GB).
-[2018.04.11-10.46.21:102][  0]LogInit: Using OS detected locale (en-GB).
-[2018.04.11-10.46.21:105][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.04.11-10.46.21:549][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.11-10.46.21:806][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.11-10.46.21:848][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.04.11-10.46.21:848][  0]LogD3D11RHI:       8086/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.11-10.46.21:856][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.04.11-10.46.21:856][  0]LogD3D11RHI:       128/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.04.11-10.46.21:857][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.11-10.46.21:857][  0]LogD3D11RHI:       0/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.11-10.46.21:857][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.11-10.46.21:864][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.11-10.46.21:864][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.11-10.46.21:864][  0]LogWindows: EnumDisplayDevices:
-[2018.04.11-10.46.21:864][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
-[2018.04.11-10.46.21:864][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.04.11-10.46.21:864][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.04.11-10.46.21:865][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.04.11-10.46.21:865][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.11-10.46.21:865][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.11-10.46.21:865][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.11-10.46.21:865][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.04.11-10.46.21:865][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.04.11-10.46.21:865][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2018.04.11-10.46.21:865][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2018.04.11-10.46.21:865][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
-[2018.04.11-10.46.21:897][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.11-10.46.21:908][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.04.11-10.46.21:910][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Intermediate/Shaders/WorkingDirectory/6860/).
-[2018.04.11-10.46.21:910][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/at9amt/AppData/Local/Temp/UnrealShaderWorkingDir/DB2C75AD48489AAFB9D44B860C0A62E6/'.
-[2018.04.11-10.46.21:910][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.11-10.46.22:873][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.11-10.46.22:929][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.11-10.46.22:986][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.11-10.46.23:040][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.11-10.46.23:096][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.11-10.46.23:152][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.11-10.46.23:208][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.11-10.46.23:263][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.11-10.46.23:312][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.11-10.46.23:367][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.11-10.46.23:424][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.11-10.46.23:475][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.11-10.46.23:534][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.11-10.46.23:589][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.11-10.46.23:704][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.11-10.46.23:705][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.11-10.46.23:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.11-10.46.23:808][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.11-10.46.23:906][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.11-10.46.23:936][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.11-10.46.23:990][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.11-10.46.24:044][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.11-10.46.24:096][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.11-10.46.24:152][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.11-10.46.24:152][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.11-10.46.24:635][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.11-10.46.24:742][  0]LogDerivedDataCache: Loaded boot cache 0.11s 92MB C:/Users/at9amt/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.11-10.46.24:742][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/at9amt/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.11-10.46.24:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.11-10.46.24:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.11-10.46.24:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.11-10.46.24:742][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.11-10.46.24:760][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.11-10.46.24:771][  0]LogDerivedDataCache: Using Local data cache path C:/Users/at9amt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.11-10.46.24:781][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.11-10.46.24:782][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.11-10.46.24:782][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.11-10.46.24:782][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.11-10.46.25:176][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.11-10.46.25:527][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.11-10.46.25:571][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.11-10.46.25:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.11-10.46.25:572][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.11-10.46.25:572][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.11-10.46.25:572][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.11-10.46.25:599][  0]LogNetVersion: PGVR_02 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2940225133)
-[2018.04.11-10.46.25:773][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2018.04.11-10.46.26:309][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.073920 seconds
-[2018.04.11-10.46.26:316][  0]LogUObjectArray: 35872 objects as part of root set at end of initial load.
-[2018.04.11-10.46.26:316][  0]LogUObjectAllocator: 7364112 out of 0 bytes used by permanent object pool.
-[2018.04.11-10.46.26:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.11-10.46.26:370][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.11-10.46.29:183][  0]LogFMOD: FFMODStudioModule startup
-[2018.04.11-10.46.29:183][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMODStudio/Binaries'
-[2018.04.11-10.46.29:183][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
-[2018.04.11-10.46.29:191][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
-[2018.04.11-10.46.29:226][  0]LogFMOD: Loading strings bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.04.11-10.46.29:228][  0]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
+[2018.04.11-15.08.34:736][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.11-15.08.34:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.11-15.08.34:755][  0]LogInit: Computer: AMTX206-01
+[2018.04.11-15.08.34:755][  0]LogInit: User: at9amt
+[2018.04.11-15.08.34:755][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.11-15.08.34:755][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2018.04.11-15.08.34:755][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.11-15.08.34:755][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.11-15.08.34:755][  0]LogMemory: Process Physical Memory: 272.68 MB used, 272.68 MB peak
+[2018.04.11-15.08.34:755][  0]LogMemory: Process Virtual Memory: 269.72 MB used, 269.72 MB peak
+[2018.04.11-15.08.34:755][  0]LogMemory: Physical Memory: 5296.83 MB used,  10964.31 MB free, 16261.14 MB total
+[2018.04.11-15.08.34:755][  0]LogMemory: Virtual Memory: 644.31 MB used,  10964.31 MB free, 134217728.00 MB total
+[2018.04.11-15.08.34:913][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.11-15.08.34:913][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.11-15.08.34:915][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.11-15.08.35:359][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.11-15.08.35:613][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.11-15.08.35:657][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.04.11-15.08.35:657][  0]LogD3D11RHI:       8086/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.11-15.08.35:666][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.04.11-15.08.35:666][  0]LogD3D11RHI:       128/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.04.11-15.08.35:667][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.11-15.08.35:667][  0]LogD3D11RHI:       0/0/8130 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.11-15.08.35:667][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.11-15.08.35:674][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.11-15.08.35:674][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.11-15.08.35:674][  0]LogWindows: EnumDisplayDevices:
+[2018.04.11-15.08.35:674][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.04.11-15.08.35:674][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.11-15.08.35:674][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.11-15.08.35:674][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.04.11-15.08.35:674][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.11-15.08.35:674][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.11-15.08.35:674][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.11-15.08.35:674][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.04.11-15.08.35:674][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.04.11-15.08.35:674][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2018.04.11-15.08.35:675][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2018.04.11-15.08.35:675][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.04.11-15.08.35:708][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.11-15.08.35:720][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.11-15.08.35:722][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Intermediate/Shaders/WorkingDirectory/2104/).
+[2018.04.11-15.08.35:722][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/at9amt/AppData/Local/Temp/UnrealShaderWorkingDir/E601F10B47D9AA24EF17C8B9B4843417/'.
+[2018.04.11-15.08.35:722][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.11-15.08.36:663][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.11-15.08.36:716][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.11-15.08.36:770][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.11-15.08.36:824][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.11-15.08.36:876][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.11-15.08.36:929][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.11-15.08.36:984][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.11-15.08.37:037][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.11-15.08.37:082][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.11-15.08.37:138][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.11-15.08.37:191][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.11-15.08.37:246][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.11-15.08.37:297][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.11-15.08.37:353][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.11-15.08.37:457][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.11-15.08.37:457][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.11-15.08.37:510][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.11-15.08.37:551][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.11-15.08.37:646][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.11-15.08.37:675][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.11-15.08.37:730][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.11-15.08.37:784][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.11-15.08.37:840][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.11-15.08.37:894][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.11-15.08.37:894][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.11-15.08.38:377][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.11-15.08.38:472][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/at9amt/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.11-15.08.38:472][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/at9amt/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.11-15.08.38:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.11-15.08.38:472][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.11-15.08.38:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.11-15.08.38:472][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.11-15.08.38:489][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.11-15.08.38:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/at9amt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.11-15.08.38:512][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.11-15.08.38:513][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.11-15.08.38:513][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.11-15.08.38:513][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.11-15.08.38:891][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.11-15.08.39:238][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.11-15.08.39:280][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.11-15.08.39:280][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.11-15.08.39:280][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.11-15.08.39:280][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.11-15.08.39:280][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.11-15.08.39:308][  0]LogNetVersion: PGVR_02 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2940225133)
+[2018.04.11-15.08.39:490][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.04.11-15.08.39:979][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.063659 seconds
+[2018.04.11-15.08.39:984][  0]LogUObjectArray: 35872 objects as part of root set at end of initial load.
+[2018.04.11-15.08.39:984][  0]LogUObjectAllocator: 7364120 out of 0 bytes used by permanent object pool.
+[2018.04.11-15.08.39:984][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.11-15.08.40:033][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.11-15.08.42:463][  0]LogFMOD: FFMODStudioModule startup
+[2018.04.11-15.08.42:464][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMODStudio/Binaries'
+[2018.04.11-15.08.42:464][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.04.11-15.08.42:469][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.04.11-15.08.42:501][  0]LogFMOD: Loading strings bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.04.11-15.08.42:503][  0]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
 
-[2018.04.11-10.46.29:228][  0]LogFMOD: Warning: Failed to load strings bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.04.11-10.46.29:229][  0]LogFMOD: Default sample rate = 48000
-[2018.04.11-10.46.29:230][  0]LogFMOD: System sample rate = 48000
-[2018.04.11-10.46.29:230][  0]LogFMOD: Matching system sample rate 48000
-[2018.04.11-10.46.29:248][  0]LogFMOD: Default sample rate = 48000
-[2018.04.11-10.46.29:248][  0]LogFMOD: System sample rate = 48000
-[2018.04.11-10.46.29:248][  0]LogFMOD: Matching system sample rate 48000
-[2018.04.11-10.46.29:288][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.11-10.46.29:333][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.11-10.46.30:056][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.11-10.46.30:515][  0]SourceControl: Source control is disabled
-[2018.04.11-10.46.30:515][  0]SourceControl: Source control is disabled
-[2018.04.11-10.46.30:573][  0]SourceControl: Source control is disabled
-[2018.04.11-10.46.30:631][  0]SourceControl: Source control is disabled
-[2018.04.11-10.46.31:199][  0]LogFMOD: FFMODStudioEditorModule startup
-[2018.04.11-10.46.31:573][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.11-10.46.31:857][  0]LogOcInput: OculusInput pre-init called
-[2018.04.11-10.46.32:158][  0]LogEngine: Initializing Engine...
-[2018.04.11-10.46.32:722][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-DADB35DE
-[2018.04.11-10.46.32:943][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.11-10.46.32:943][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.11-10.46.33:062][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.11-10.46.33:068][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.11-10.46.33:075][  0]LogInit: FAudioDevice initialized.
-[2018.04.11-10.46.33:163][  0]LogDerivedDataCache: Saved boot cache 0.09s 92MB C:/Users/at9amt/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.11-10.46.33:182][  0]LogInit: Texture streaming: Enabled
-[2018.04.11-10.46.33:281][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.11-10.46.33:410][  0]LogInit: Transaction tracking system initialized
-[2018.04.11-10.46.33:724][  0]BlueprintLog: New page: Editor Load
-[2018.04.11-10.46.34:612][  0]LocalizationService: Localization service is disabled
-[2018.04.11-10.46.35:347][  0]LogConsoleResponse: Display: 
-[2018.04.11-10.46.35:524][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.11-10.46.35:524][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.11-10.46.35:525][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.11-10.46.36:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Content/' took 0.02s
-[2018.04.11-10.46.36:743][  0]SourceControl: Source control is disabled
-[2018.04.11-10.46.36:743][  0]Cmd: MAP LOAD FILE="../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Maps/Apartment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.11-10.46.36:744][  0]LightingResults: New page: Lighting Build
-[2018.04.11-10.46.36:786][  0]MapCheck: New page: Map Check
-[2018.04.11-10.46.36:786][  0]LightingResults: New page: Lighting Build
-[2018.04.11-10.46.37:198][  0]LogLinker: Warning: Can't find file '/Game/Apartment/Geometry/Meshes/CubeMaterial'
-[2018.04.11-10.46.37:198][  0]LogLinker: Warning: Can't find file for asset '/Game/Apartment/Geometry/Meshes/CubeMaterial' while loading ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Apartment/Geometry/Meshes/1M_Cube.uasset.
-[2018.04.11-10.46.37:199][  0]LoadErrors: Error: /Game/Apartment/Geometry/Meshes/1M_Cube : Can't find file for asset. /Game/Apartment/Geometry/Meshes/CubeMaterial
-[2018.04.11-10.46.37:199][  0]LogLinker: Warning: Can't find file '/Game/Apartment/Geometry/Meshes/CubeMaterial'
-[2018.04.11-10.46.37:199][  0]LogLinker: Warning: Can't find file for asset '/Game/Apartment/Geometry/Meshes/CubeMaterial' while loading ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Apartment/Geometry/Meshes/1M_Cube.uasset.
-[2018.04.11-10.46.37:199][  0]LoadErrors: Error: /Game/Apartment/Geometry/Meshes/1M_Cube : Can't find file for asset. /Game/Apartment/Geometry/Meshes/CubeMaterial
-[2018.04.11-10.46.37:984][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Basic/BreakSet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.37:985][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Basic/MakeSet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.37:987][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Basic/Roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.37:989][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Dye_SingleColor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.37:991][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Tex_SimpleGrid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.37:992][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGrid_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.37:999][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_SetupGrid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.38:004][  0]LogLinker: Warning: Asset '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGrid_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.04.11-10.46.38:336][  0]LogLinker: Warning: Can't find file '/Game/Apartment/Geometry/Meshes/CubeMaterial'
-[2018.04.11-10.46.38:336][  0]LoadErrors: Failed to load /Game/Apartment/Geometry/Meshes/CubeMaterial.CubeMaterial Referenced by 1M_Cube
-[2018.04.11-10.46.38:336][  0]LogLinker: Warning: Can't find file for asset '/Game/Apartment/Geometry/Meshes/CubeMaterial' while loading NULL.
-[2018.04.11-10.46.38:336][  0]LoadErrors: Failed to load /Game/Apartment/Geometry/Meshes/CubeMaterial.CubeMaterial Referenced by 1M_Cube
-[2018.04.11-10.46.38:336][  0]LogLinker: Warning: Can't find file '/Game/Apartment/Geometry/Meshes/CubeMaterial'
-[2018.04.11-10.46.38:337][  0]LoadErrors: Failed to load /Game/Apartment/Geometry/Meshes/CubeMaterial.CubeMaterial Referenced by 1M_Cube
-[2018.04.11-10.46.38:337][  0]LogLinker: Warning: Can't find file for asset '/Game/Apartment/Geometry/Meshes/CubeMaterial' while loading NULL.
-[2018.04.11-10.46.38:337][  0]LoadErrors: Failed to load /Game/Apartment/Geometry/Meshes/CubeMaterial.CubeMaterial Referenced by 1M_Cube
-[2018.04.11-10.46.38:343][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.11-10.46.39:297][  0]LogAIModule: Creating AISystem for world Apartment
-[2018.04.11-10.46.39:337][  0]PIE: Warning: Trying to simulate physics on ''/Game/Maps/Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.04.11-10.46.39:407][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.11-10.46.39:439][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.11-10.46.39:539][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.593ms to complete.
-[2018.04.11-10.46.39:539][  0]LogFileHelpers: Loading map 'Apartment' took 2.796
-[2018.04.11-10.46.39:595][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.11-10.46.39:679][  0]LogCollectionManager: Loaded 0 collections in 0.001263 seconds
-[2018.04.11-10.46.39:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Saved/Collections/' took 0.01s
-[2018.04.11-10.46.39:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Developers/at9amt/Collections/' took 0.01s
-[2018.04.11-10.46.39:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Collections/' took 0.01s
-[2018.04.11-10.46.39:761][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.11-10.46.39:769][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2380 classes and 526 folders.
-[2018.04.11-10.46.39:837][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.11-10.46.39:872][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.11-10.46.39:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.04.11-10.46.39:934][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.11-10.46.39:936][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.11-10.46.39:941][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.11-10.46.40:043][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.04.11-10.46.40:245][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.11-10.46.40:412][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.04.11-10.46.40:412][  0]LogLoad: (Engine Initialization) Total time: 21.83 seconds
-[2018.04.11-10.46.40:412][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.11-10.46.40:412][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.04.11-10.46.40:412][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.04.11-10.46.40:447][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.11-10.46.40:891][  2]LogAssetRegistry: Asset discovery search completed in 15.1395 seconds
-[2018.04.11-10.46.40:894][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.11-10.46.40:894][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
-[2018.04.11-10.47.21:342][346]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.11-10.47.21:607][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.47.21:632][346]LogFMOD: Creating runtime Studio System
-[2018.04.11-10.47.21:633][346]LogFMOD: Default sample rate = 48000
-[2018.04.11-10.47.21:633][346]LogFMOD: System sample rate = 48000
-[2018.04.11-10.47.21:633][346]LogFMOD: Matching system sample rate 48000
-[2018.04.11-10.47.21:644][346]LogFMOD: Loading Banks
-[2018.04.11-10.47.21:682][346]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank'
+[2018.04.11-15.08.42:503][  0]LogFMOD: Warning: Failed to load strings bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.04.11-15.08.42:504][  0]LogFMOD: Default sample rate = 48000
+[2018.04.11-15.08.42:504][  0]LogFMOD: System sample rate = 48000
+[2018.04.11-15.08.42:504][  0]LogFMOD: Matching system sample rate 48000
+[2018.04.11-15.08.42:520][  0]LogFMOD: Default sample rate = 48000
+[2018.04.11-15.08.42:520][  0]LogFMOD: System sample rate = 48000
+[2018.04.11-15.08.42:520][  0]LogFMOD: Matching system sample rate 48000
+[2018.04.11-15.08.42:555][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.11-15.08.42:593][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.11-15.08.43:206][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.11-15.08.43:587][  0]SourceControl: Source control is disabled
+[2018.04.11-15.08.43:587][  0]SourceControl: Source control is disabled
+[2018.04.11-15.08.43:633][  0]SourceControl: Source control is disabled
+[2018.04.11-15.08.43:679][  0]SourceControl: Source control is disabled
+[2018.04.11-15.08.44:150][  0]LogFMOD: FFMODStudioEditorModule startup
+[2018.04.11-15.08.44:457][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.11-15.08.44:695][  0]LogOcInput: OculusInput pre-init called
+[2018.04.11-15.08.44:953][  0]LogEngine: Initializing Engine...
+[2018.04.11-15.08.48:506][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-DADB35DE
+[2018.04.11-15.08.48:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.11-15.08.48:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.11-15.08.48:866][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.11-15.08.48:871][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.11-15.08.48:877][  0]LogInit: FAudioDevice initialized.
+[2018.04.11-15.08.48:961][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/at9amt/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.11-15.08.48:979][  0]LogInit: Texture streaming: Enabled
+[2018.04.11-15.08.49:071][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.11-15.08.49:191][  0]LogInit: Transaction tracking system initialized
+[2018.04.11-15.08.49:475][  0]BlueprintLog: New page: Editor Load
+[2018.04.11-15.08.50:377][  0]LocalizationService: Localization service is disabled
+[2018.04.11-15.08.51:092][  0]LogConsoleResponse: Display: 
+[2018.04.11-15.08.51:272][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.11-15.08.51:273][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.11-15.08.51:273][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.11-15.08.52:309][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Content/' took 0.02s
+[2018.04.11-15.08.52:352][  0]SourceControl: Source control is disabled
+[2018.04.11-15.08.52:352][  0]Cmd: MAP LOAD FILE="../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.11-15.08.52:352][  0]LightingResults: New page: Lighting Build
+[2018.04.11-15.08.52:391][  0]MapCheck: New page: Map Check
+[2018.04.11-15.08.52:391][  0]LightingResults: New page: Lighting Build
+[2018.04.11-15.08.53:532][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Basic/BreakSet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:533][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Basic/MakeSet.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:535][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Basic/Roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:536][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Dye_SingleColor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:538][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Tex_SimpleGrid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:539][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGrid_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:545][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_SetupGrid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:550][  0]LogLinker: Warning: Asset '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGrid_N.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.04.11-15.08.53:767][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.11-15.08.54:702][  0]LogAIModule: Creating AISystem for world Apartment
+[2018.04.11-15.08.54:734][  0]PIE: Warning: Trying to simulate physics on ''/Game/Maps/Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.04.11-15.08.54:799][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.11-15.08.54:829][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.11-15.08.54:918][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88.973ms to complete.
+[2018.04.11-15.08.54:918][  0]LogFileHelpers: Loading map 'Apartment' took 2.566
+[2018.04.11-15.08.54:985][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.11-15.08.55:063][  0]LogCollectionManager: Loaded 0 collections in 0.001587 seconds
+[2018.04.11-15.08.55:138][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Saved/Collections/' took 0.01s
+[2018.04.11-15.08.55:138][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Developers/at9amt/Collections/' took 0.01s
+[2018.04.11-15.08.55:138][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Collections/' took 0.01s
+[2018.04.11-15.08.55:138][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.11-15.08.55:146][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2380 classes and 526 folders.
+[2018.04.11-15.08.55:205][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.11-15.08.55:237][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.11-15.08.55:276][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.11-15.08.55:293][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.11-15.08.55:295][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.11-15.08.55:299][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.11-15.08.55:396][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.11-15.08.55:482][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.11-15.08.55:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.11-15.08.55:659][  0]LogLoad: (Engine Initialization) Total time: 23.27 seconds
+[2018.04.11-15.08.55:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.11-15.08.55:659][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.11-15.08.55:659][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.11-15.08.55:692][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.11-15.08.55:822][  2]LogAssetRegistry: Asset discovery search completed in 16.3537 seconds
+[2018.04.11-15.08.55:825][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.11-15.08.55:825][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2018.04.11-15.08.56:704][ 88]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.11-15.09.18:964][685]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-15.09.19:045][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.09.19:079][685]LogFMOD: Creating runtime Studio System
+[2018.04.11-15.09.19:080][685]LogFMOD: Default sample rate = 48000
+[2018.04.11-15.09.19:080][685]LogFMOD: System sample rate = 48000
+[2018.04.11-15.09.19:080][685]LogFMOD: Matching system sample rate 48000
+[2018.04.11-15.09.19:087][685]LogFMOD: Loading Banks
+[2018.04.11-15.09.19:129][685]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank'
 
-[2018.04.11-10.47.21:682][346]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
+[2018.04.11-15.09.19:129][685]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
 
-[2018.04.11-10.47.21:682][346]LogFMOD: Warning: Failed to bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
-[2018.04.11-10.47.21:682][346]LogFMOD: Warning: Failed to bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
-[2018.04.11-10.47.21:682][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.11-10.47.21:682][346]PIE: New page: PIE session: Apartment (11 Apr 2018 12:47:21)
-[2018.04.11-10.47.21:682][346]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Apartment
-[2018.04.11-10.47.21:780][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098202s)
-[2018.04.11-10.47.21:781][346]LogAIModule: Creating AISystem for world Apartment
-[2018.04.11-10.47.21:781][346]LogPlayLevel: PIE: World Init took: (0.000720s)
-[2018.04.11-10.47.21:781][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Apartment.Apartment to /Game/Maps/UEDPIE_0_Apartment.Apartment (0.099485s)
-[2018.04.11-10.47.21:795][346]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.11-10.47.21:802][346]LogInit: FAudioDevice initialized.
-[2018.04.11-10.47.21:845][346]LogLinker: Warning: Can't find file '/Script/VRProj'
-[2018.04.11-10.47.21:845][346]LogLinker: Warning: Can't find file '/Script/VRProj'
-[2018.04.11-10.47.21:845][346]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/VRProj.GameModePrototype'
-[2018.04.11-10.47.21:845][346]LogLoad: Game class is 'GameModeBase'
-[2018.04.11-10.47.21:865][346]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.04.11-10.47.21:876][346]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Apartment.Apartment up for play (max tick rate 0) at 2018.04.11-11.47.21
-[2018.04.11-10.47.21:879][346]LogWorld: Bringing up level for play took: 0.031886
-[2018.04.11-10.47.21:923][346]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.04.11-10.47.21:927][346]LogScript: Warning: Accessed None trying to read property Current Audio
+[2018.04.11-15.09.19:129][685]LogFMOD: Warning: Failed to bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.04.11-15.09.19:129][685]LogFMOD: Warning: Failed to bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.04.11-15.09.19:129][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-15.09.19:129][685]PIE: New page: PIE session: Apartment (11 Apr 2018 17:09:19)
+[2018.04.11-15.09.19:129][685]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Apartment
+[2018.04.11-15.09.19:186][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057067s)
+[2018.04.11-15.09.19:187][685]LogAIModule: Creating AISystem for world Apartment
+[2018.04.11-15.09.19:187][685]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2018.04.11-15.09.19:187][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Apartment.Apartment to /Game/Maps/UEDPIE_0_Apartment.Apartment (0.058326s)
+[2018.04.11-15.09.19:200][685]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.11-15.09.19:206][685]LogInit: FAudioDevice initialized.
+[2018.04.11-15.09.19:303][685]LogLinker: Warning: Can't find file '/Script/VRProj'
+[2018.04.11-15.09.19:303][685]LogLinker: Warning: Can't find file '/Script/VRProj'
+[2018.04.11-15.09.19:303][685]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/VRProj.GameModePrototype'
+[2018.04.11-15.09.19:303][685]LogLoad: Game class is 'GameModeBase'
+[2018.04.11-15.09.19:319][685]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.04.11-15.09.19:331][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Apartment.Apartment up for play (max tick rate 0) at 2018.04.11-16.09.19
+[2018.04.11-15.09.19:334][685]LogWorld: Bringing up level for play took: 0.028528
+[2018.04.11-15.09.19:373][685]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.04.11-15.09.19:376][685]LogScript: Warning: Accessed None trying to read property Current Audio
 	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
 	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2968
-[2018.04.11-10.47.21:927][346]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Current Audio from function: 'ExecuteUbergraph_VR_Conroller' from node: Stop in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Current Audio
-[2018.04.11-10.47.21:927][346]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Apartment 0.104
-[2018.04.11-10.47.21:928][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.47.25:450][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.47.25:586][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.47.37:106][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.47.37:142][723]LogFMOD: Creating runtime Studio System
-[2018.04.11-10.47.37:143][723]LogFMOD: Default sample rate = 48000
-[2018.04.11-10.47.37:143][723]LogFMOD: System sample rate = 48000
-[2018.04.11-10.47.37:143][723]LogFMOD: Matching system sample rate 48000
-[2018.04.11-10.47.37:150][723]LogFMOD: Loading Banks
-[2018.04.11-10.47.37:192][723]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank'
-
-[2018.04.11-10.47.37:192][723]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
-
-[2018.04.11-10.47.37:192][723]LogFMOD: Warning: Failed to bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
-[2018.04.11-10.47.37:192][723]LogFMOD: Warning: Failed to bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
-[2018.04.11-10.47.37:192][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.11-10.47.37:192][723]PIE: New page: PIE session: Apartment (11 Apr 2018 12:47:37)
-[2018.04.11-10.47.37:192][723]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Apartment
-[2018.04.11-10.47.37:256][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064172s)
-[2018.04.11-10.47.37:257][723]LogAIModule: Creating AISystem for world Apartment
-[2018.04.11-10.47.37:257][723]LogPlayLevel: PIE: World Init took: (0.000621s)
-[2018.04.11-10.47.37:257][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Apartment.Apartment to /Game/Maps/UEDPIE_0_Apartment.Apartment (0.065230s)
-[2018.04.11-10.47.37:271][723]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.11-10.47.37:276][723]LogInit: FAudioDevice initialized.
-[2018.04.11-10.47.37:366][723]LogLoad: Game class is 'GameModeBase'
-[2018.04.11-10.47.37:383][723]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.04.11-10.47.37:396][723]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Apartment.Apartment up for play (max tick rate 0) at 2018.04.11-11.47.37
-[2018.04.11-10.47.37:399][723]LogWorld: Bringing up level for play took: 0.032566
-[2018.04.11-10.47.37:402][723]LogScript: Warning: Accessed None trying to read property Current Audio
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2968
-[2018.04.11-10.47.37:402][723]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Current Audio from function: 'ExecuteUbergraph_VR_Conroller' from node: Stop in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Current Audio
-[2018.04.11-10.47.37:410][723]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Apartment -0.413
-[2018.04.11-10.47.37:410][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.47.37:483][724]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2018.04.11-10.47.37:497][724]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:1).
-[2018.04.11-10.47.40:021][836]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:112).
-[2018.04.11-10.47.40:064][836]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:112).
-[2018.04.11-10.48.12:380][625]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
-[2018.04.11-10.48.12:381][625]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.48.18:618][867]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
-[2018.04.11-10.48.18:618][867]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.48.23:898][ 21]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
-[2018.04.11-10.48.23:898][ 21]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.48.27:436][173]LogScript: Warning: Accessed None trying to read property Hit Component
+[2018.04.11-15.09.19:376][685]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Current Audio from function: 'ExecuteUbergraph_VR_Conroller' from node: Stop in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Current Audio
+[2018.04.11-15.09.19:382][685]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Apartment 0.758
+[2018.04.11-15.09.19:383][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.09.19:452][686]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:1).
+[2018.04.11-15.09.25:002][835]LogScript: Warning: Accessed None trying to read property Hit Component
 	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
 	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:172C
-[2018.04.11-10.48.27:436][173]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Hit Component from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Hit Component
-[2018.04.11-10.49.19:364][291]LogScript: Warning: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.09.25:002][835]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Hit Component from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Hit Component
+[2018.04.11-15.09.25:848][870]LogScript: Warning: Accessed None trying to read property Hit Component
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:172C
+[2018.04.11-15.09.25:848][870]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Hit Component from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Hit Component
+[2018.04.11-15.09.27:210][924]LogScript: Warning: Accessed None trying to read property HitComponentRight
 	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
 	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
-[2018.04.11-10.49.19:364][291]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
-[2018.04.11-10.49.37:306][  9]LogScript: Warning: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.09.27:210][924]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.09.28:449][976]LogScript: Warning: Accessed None trying to read property HitComponentRight
 	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
 	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
-[2018.04.11-10.49.37:306][  9]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
-[2018.04.11-10.49.39:910][ 58]LogScript: Warning: Accessed None trying to read property HitComponentRight
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
-[2018.04.11-10.49.39:911][ 58]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
-[2018.04.11-10.49.44:039][159]LogScript: Warning: Accessed None trying to read property HitComponentRight
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
-[2018.04.11-10.49.44:039][159]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
-[2018.04.11-10.49.51:747][347]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:4623).
-[2018.04.11-10.49.51:766][347]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:4623).
-[2018.04.11-10.49.52:141][363]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
-[2018.04.11-10.49.52:141][363]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.04:934][671]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
-[2018.04.11-10.50.04:934][671]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.06:969][727]LogScript: Warning: Accessed None trying to read property HitComponentRight
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
-[2018.04.11-10.50.06:969][727]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
-[2018.04.11-10.50.08:577][794]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
-	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
-[2018.04.11-10.50.08:577][794]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.12:814][982]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:5258).
-[2018.04.11-10.50.12:832][982]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:5258).
-[2018.04.11-10.50.14:117][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.50.14:363][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.50.26:249][265]LogTemp: Repeating last play command: VR Preview
-[2018.04.11-10.50.26:268][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.50.26:293][265]LogFMOD: Creating runtime Studio System
-[2018.04.11-10.50.26:295][265]LogFMOD: Default sample rate = 48000
-[2018.04.11-10.50.26:295][265]LogFMOD: System sample rate = 48000
-[2018.04.11-10.50.26:295][265]LogFMOD: Matching system sample rate 48000
-[2018.04.11-10.50.26:304][265]LogFMOD: Loading Banks
-[2018.04.11-10.50.26:342][265]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank'
+[2018.04.11-15.09.28:449][976]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.09.49:345][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.09.49:669][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.10.32:897][454]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.11-15.10.33:150][454]LogClass: Warning: Enum '/Game/ProtoVRHand/Blueprints/Example/Enum_Grip.Enum_Grip' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.04.11-15.10.33:197][454]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.04.11-15.10.33:791][454]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.11-15.10.33:866][454]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.11-15.10.34:013][455]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.11-15.10.38:231][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Apartment/ApartmentBlueprints/Cupboard" FILE="../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Apartment/ApartmentBlueprints/Cupboard.uasset" SILENT=true
+[2018.04.11-15.10.38:306][735]LogSavePackage: Save=66.32ms
+[2018.04.11-15.10.38:306][735]LogSavePackage: Moving '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Saved/Cupboard209FFC23436A0C8D33E63AAF6D70A163.tmp' to '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Apartment/ApartmentBlueprints/Cupboard.uasset'
+[2018.04.11-15.10.38:307][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Apartment/ApartmentBlueprints/Cupboard.uasset
+[2018.04.11-15.10.48:892][414]BlueprintLog: New page: Compile Cupboard
+[2018.04.11-15.10.52:028][553]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-15.10.52:056][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.10.52:089][553]LogFMOD: Creating runtime Studio System
+[2018.04.11-15.10.52:090][553]LogFMOD: Default sample rate = 48000
+[2018.04.11-15.10.52:090][553]LogFMOD: System sample rate = 48000
+[2018.04.11-15.10.52:090][553]LogFMOD: Matching system sample rate 48000
+[2018.04.11-15.10.52:097][553]LogFMOD: Loading Banks
+[2018.04.11-15.10.52:139][553]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank'
 
-[2018.04.11-10.50.26:342][265]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
+[2018.04.11-15.10.52:139][553]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
 
-[2018.04.11-10.50.26:342][265]LogFMOD: Warning: Failed to bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
-[2018.04.11-10.50.26:342][265]LogFMOD: Warning: Failed to bank: ../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
-[2018.04.11-10.50.26:342][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.11-10.50.26:342][265]PIE: New page: PIE session: Apartment (11 Apr 2018 12:50:26)
-[2018.04.11-10.50.26:343][265]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Apartment
-[2018.04.11-10.50.26:404][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061911s)
-[2018.04.11-10.50.26:405][265]LogAIModule: Creating AISystem for world Apartment
-[2018.04.11-10.50.26:405][265]LogPlayLevel: PIE: World Init took: (0.000650s)
-[2018.04.11-10.50.26:405][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Apartment.Apartment to /Game/Maps/UEDPIE_0_Apartment.Apartment (0.062990s)
-[2018.04.11-10.50.26:419][265]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.11-10.50.26:424][265]LogInit: FAudioDevice initialized.
-[2018.04.11-10.50.26:514][265]LogLoad: Game class is 'GameModeBase'
-[2018.04.11-10.50.26:532][265]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.04.11-10.50.26:543][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Apartment.Apartment up for play (max tick rate 0) at 2018.04.11-11.50.26
-[2018.04.11-10.50.26:545][265]LogWorld: Bringing up level for play took: 0.030141
-[2018.04.11-10.50.26:548][265]LogScript: Warning: Accessed None trying to read property Current Audio
+[2018.04.11-15.10.52:139][553]LogFMOD: Warning: Failed to bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.04.11-15.10.52:139][553]LogFMOD: Warning: Failed to bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.04.11-15.10.52:139][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-15.10.52:139][553]PIE: New page: PIE session: Apartment (11 Apr 2018 17:10:52)
+[2018.04.11-15.10.52:139][553]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Apartment
+[2018.04.11-15.10.52:199][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059580s)
+[2018.04.11-15.10.52:199][553]LogAIModule: Creating AISystem for world Apartment
+[2018.04.11-15.10.52:199][553]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2018.04.11-15.10.52:200][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Apartment.Apartment to /Game/Maps/UEDPIE_0_Apartment.Apartment (0.060851s)
+[2018.04.11-15.10.52:220][553]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.11-15.10.52:226][553]LogInit: FAudioDevice initialized.
+[2018.04.11-15.10.52:329][553]LogLoad: Game class is 'GameModeBase'
+[2018.04.11-15.10.52:343][553]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.04.11-15.10.52:359][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Apartment.Apartment up for play (max tick rate 0) at 2018.04.11-16.10.52
+[2018.04.11-15.10.52:362][553]LogWorld: Bringing up level for play took: 0.032879
+[2018.04.11-15.10.52:365][553]LogScript: Warning: Accessed None trying to read property Current Audio
 	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
 	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2968
-[2018.04.11-10.50.26:548][265]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Current Audio from function: 'ExecuteUbergraph_VR_Conroller' from node: Stop in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Current Audio
-[2018.04.11-10.50.26:556][265]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Apartment 0.735
-[2018.04.11-10.50.26:556][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.50.34:316][577]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:311).
-[2018.04.11-10.50.34:361][577]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:311).
-[2018.04.11-10.50.35:254][617]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:351).
-[2018.04.11-10.50.35:289][617]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:351).
-[2018.04.11-10.50.47:131][928]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Door_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Door_302
-	Function /Game/Apartment/ApartmentBlueprints/Door.Door_C:ExecuteUbergraph_Door:0245
-[2018.04.11-10.50.47:131][928]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Door' from node: Set CardPresent in graph: EventGraph in object: Door with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.48:859][  6]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:740).
-[2018.04.11-10.50.48:880][  6]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:740).
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:10F8
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set RedKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:11A1
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set RedKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:0F60
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set YellowKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:100C
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set YellowKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:0B9E
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set GreenKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:0C49
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set GreenKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:128C
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set BlueKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.50.49:793][ 38]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:1336
-[2018.04.11-10.50.49:793][ 38]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set BlueKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.51.00:728][480]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:128C
-[2018.04.11-10.51.00:728][480]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set BlueKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.51.00:728][480]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:1336
-[2018.04.11-10.51.00:728][480]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set BlueKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.51.00:728][480]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
-	Keypad_Main_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.Keypad_Main_4314
-	Function /Game/NotStarterContent/Blueprints/Keypad_Main.Keypad_Main_C:ExecuteUbergraph_Keypad_Main:128C
-[2018.04.11-10.51.00:728][480]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_Keypad_Main' from node: Set BlueKeyPresent in graph: EventGraph in object: Keypad_Main with description: Attempted to access index 0 from array ComponentTags of length 0!
-[2018.04.11-10.51.00:766][482]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:1216).
-[2018.04.11-10.51.00:802][482]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 10 NumSamples 1 (Frame:1216).
-[2018.04.11-10.51.03:557][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.51.03:916][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
-[2018.04.11-10.51.40:023][372]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.04.11-10.51.40:077][373]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PGVR02
-[2018.04.11-10.51.40:077][373]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.04.11-10.51.40:077][373]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.04.11-10.51.40:077][373]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.04.11-10.51.40:077][373]LogTemp: BranchPath = AMTX206-01/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = AMTX206-01/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.04.11-10.51.40:077][373]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\at9amt\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.04.11-10.52.05:216][948]LogInit: Warning: CVar named 'r.AllowGlobalClipPlane' marked up in RendererSettings was not found or is set to read-only
-[2018.04.11-10.52.05:270][948]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.11-10.52.13:182][129]Cmd: CLOSE_SLATE_MAINFRAME
-[2018.04.11-10.52.13:479][130]Cmd: QUIT_EDITOR
-[2018.04.11-10.52.13:868][130]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.11-10.52.13:880][130]LogExit: Preparing to exit.
-[2018.04.11-10.52.14:418][130]LogDirectoryWatcher: A directory notification for 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Content/' was aborted.
-[2018.04.11-10.52.14:462][130]LogExit: Editor shut down
-[2018.04.11-10.52.14:466][130]LogExit: Transaction tracking system shut down
-[2018.04.11-10.52.14:584][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../../../../Users/at9amt/Documents/PGVR_02/PGVR_02/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/FMODStudio/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.11-10.52.14:585][130]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.11-10.52.14:640][130]LogExit: Object subsystem successfully closed.
-[2018.04.11-10.52.14:667][130]LogD3D11RHI: Shutdown
-[2018.04.11-10.52.14:667][130]LogD3D11RHI: CleanupD3DDevice
-[2018.04.11-10.52.14:674][130]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.11-10.52.14:692][130]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (556)
-[2018.04.11-10.52.14:692][130]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2018.04.11-10.52.14:692][130]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2018.04.11-10.52.14:692][130]LogModuleManager: Shutting down and abandoning module SceneOutliner (550)
-[2018.04.11-10.52.14:692][130]LogModuleManager: Shutting down and abandoning module AddContentDialog (548)
-[2018.04.11-10.52.14:692][130]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.04.11-10.52.14:693][130]LogModuleManager: Shutting down and abandoning module WidgetCarousel (547)
-[2018.04.11-10.52.14:693][130]LogModuleManager: Shutting down and abandoning module EditorWidgets (544)
-[2018.04.11-10.52.14:693][130]LogModuleManager: Shutting down and abandoning module CollectionManager (542)
-[2018.04.11-10.52.14:693][130]LogDirectoryWatcher: A directory notification for 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Collections/' was aborted.
-[2018.04.11-10.52.14:693][130]LogDirectoryWatcher: A directory notification for 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Content/Developers/at9amt/Collections/' was aborted.
-[2018.04.11-10.52.14:694][130]LogDirectoryWatcher: A directory notification for 'C:/Users/at9amt/Documents/PGVR_02/PGVR_02/Saved/Collections/' was aborted.
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module StatsViewer (540)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module FoliageEdit (538)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module LandscapeEditor (536)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module MeshPaintMode (534)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (532)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module ActorPickerMode (530)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module GeometryMode (528)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module TextureAlignMode (526)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module BspMode (524)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (522)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module HardwareSurvey (520)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (518)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module AutomationWorker (516)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (514)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (512)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module PlacementMode (511)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (508)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (506)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (504)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (502)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (500)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (498)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (496)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (494)
-[2018.04.11-10.52.14:694][130]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (492)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module CharacterAI (490)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module AudioCapture (488)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module SequenceRecorder (487)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module SmartSnapping (484)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module SessionServices (482)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module ViewportSnapping (480)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module ViewportInteraction (478)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module ClothPainter (476)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (475)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module LogVisualizer (472)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module IntroTutorials (470)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (469)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (466)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (464)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (462)
-[2018.04.11-10.52.14:695][130]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (461)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (458)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (456)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (454)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module InputBindingEditor (452)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module MergeActors (450)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module SizeMap (448)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module TreeMap (446)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module ReferenceViewer (444)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (442)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module LocalizationService (441)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module HardwareTargeting (438)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (436)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module UndoHistory (434)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module XmlParser (432)
-[2018.04.11-10.52.15:060][130]LogModuleManager: Shutting down and abandoning module Blutility (430)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (428)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (427)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (424)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module SettingsEditor (422)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module ProjectLauncher (420)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module SessionFrontend (418)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module ProfilerClient (416)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module DeviceManager (414)
-[2018.04.11-10.52.15:061][130]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (413)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module AutomationController (410)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module AutomationWindow (408)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module Layers (406)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (404)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module DetailCustomizations (402)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module PackagesDialog (400)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module Persona (398)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (397)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module AnimGraph (395)
-[2018.04.11-10.52.15:125][130]LogModuleManager: Shutting down and abandoning module Kismet (392)
-[2018.04.11-10.52.15:126][130]LogModuleManager: Shutting down and abandoning module ClassViewer (390)
-[2018.04.11-10.52.15:126][130]LogModuleManager: Shutting down and abandoning module Toolbox (388)
-[2018.04.11-10.52.15:126][130]LogModuleManager: Shutting down and abandoning module ModuleUI (386)
-[2018.04.11-10.52.15:126][130]LogModuleManager: Shutting down and abandoning module MovieSceneTools (384)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module OutputLog (382)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module GammaUI (380)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module Documentation (378)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (376)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module MovieScene (374)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (372)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module LauncherPlatform (370)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module AnalyticsET (368)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module PortalServices (366)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module PortalRpc (364)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module MessagingRpc (362)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module AIModule (360)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module GameplayDebugger (359)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module AITestSuite (357)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module DesktopPlatform (354)
-[2018.04.11-10.52.15:127][130]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module OculusInput (342)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module CableComponent (336)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (320)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.04.11-10.52.15:129][130]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.04.11-10.52.15:130][130]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.04.11-10.52.15:131][130]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.04.11-10.52.15:131][130]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.04.11-10.52.15:131][130]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
-[2018.04.11-10.52.15:132][130]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
-[2018.04.11-10.52.15:233][130]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
-[2018.04.11-10.52.15:365][130]LogModuleManager: Shutting down and abandoning module FMODStudio (252)
-[2018.04.11-10.52.15:538][130]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.04.11-10.52.15:538][130]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.04.11-10.52.15:538][130]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.04.11-10.52.15:538][130]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.04.11-10.52.15:538][130]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.04.11-10.52.15:538][130]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.04.11-10.52.15:539][130]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.04.11-10.52.15:545][130]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.04.11-10.52.15:548][130]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.04.11-10.52.15:549][130]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.04.11-10.52.15:574][130]LogDerivedDataCache: Shutdown
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.04.11-10.52.15:574][130]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.11-10.52.15:575][130]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.11-10.52.15:575][130]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.11-10.52.15:575][130]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9BCC6BE3-4564-5DEB-C64F-9CA23D368B9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=88775c6f428a531673c601b8e0b891c2%7C9ecf7c6bb23f4e46813f10c106a511c7%7Caed38978-7903-4a25-92c3-ce1bf6490cdb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.11-10.52.15:602][130]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.11-10.52.15:603][130]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.11-10.52.15:603][130]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.11-10.52.15:604][130]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.11-10.52.15:604][130]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.11-10.52.15:604][130]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.11-10.52.15:604][130]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.11-10.52.15:604][130]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.11-10.52.15:605][130]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.11-10.52.15:610][130]LogExit: Exiting.
-[2018.04.11-10.52.15:628][130]Log file closed, 04/11/18 11:52:15
+[2018.04.11-15.10.52:365][553]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Current Audio from function: 'ExecuteUbergraph_VR_Conroller' from node: Stop in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Current Audio
+[2018.04.11-15.10.52:375][553]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Apartment -0.248
+[2018.04.11-15.10.52:376][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.10.57:252][671]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.10.57:252][671]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.04:335][862]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.11.04:335][862]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.08:263][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.11.08:667][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.11.18:617][626]BlueprintLog: New page: Compile Cupboard
+[2018.04.11-15.11.21:108][723]LogTemp: Repeating last play command: VR Preview
+[2018.04.11-15.11.21:135][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.11.21:170][723]LogFMOD: Creating runtime Studio System
+[2018.04.11-15.11.21:171][723]LogFMOD: Default sample rate = 48000
+[2018.04.11-15.11.21:171][723]LogFMOD: System sample rate = 48000
+[2018.04.11-15.11.21:171][723]LogFMOD: Matching system sample rate 48000
+[2018.04.11-15.11.21:179][723]LogFMOD: Loading Banks
+[2018.04.11-15.11.21:220][723]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.04.11-15.11.21:220][723]LogFMOD: Error: f:\jk\workspace\1.10_UE4.18_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.04.11-15.11.21:220][723]LogFMOD: Warning: Failed to bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.04.11-15.11.21:220][723]LogFMOD: Warning: Failed to bank: ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.04.11-15.11.21:220][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.11-15.11.21:220][723]PIE: New page: PIE session: Apartment (11 Apr 2018 17:11:21)
+[2018.04.11-15.11.21:220][723]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Apartment
+[2018.04.11-15.11.21:278][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058414s)
+[2018.04.11-15.11.21:279][723]LogAIModule: Creating AISystem for world Apartment
+[2018.04.11-15.11.21:279][723]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2018.04.11-15.11.21:280][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Apartment.Apartment to /Game/Maps/UEDPIE_0_Apartment.Apartment (0.060147s)
+[2018.04.11-15.11.21:301][723]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.11-15.11.21:306][723]LogInit: FAudioDevice initialized.
+[2018.04.11-15.11.21:402][723]LogLoad: Game class is 'GameModeBase'
+[2018.04.11-15.11.21:416][723]PIE: Warning: Trying to simulate physics on ''/Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.CutelryTray_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.04.11-15.11.21:430][723]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Apartment.Apartment up for play (max tick rate 0) at 2018.04.11-16.11.21
+[2018.04.11-15.11.21:432][723]LogWorld: Bringing up level for play took: 0.029651
+[2018.04.11-15.11.21:435][723]LogScript: Warning: Accessed None trying to read property Current Audio
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2968
+[2018.04.11-15.11.21:435][723]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Current Audio from function: 'ExecuteUbergraph_VR_Conroller' from node: Stop in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property Current Audio
+[2018.04.11-15.11.21:445][723]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Apartment 0.823
+[2018.04.11-15.11.21:446][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.11.29:582][936]LogScript: Warning: Attempted to access index 0 from array ComponentTags of length 0!
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:24BC
+[2018.04.11-15.11.29:582][936]PIE: Error: Blueprint Runtime Error: Attempted to access index 0 from array ComponentTags of length 0! from function: 'ExecuteUbergraph_VR_Conroller' from node: Picked Up Item in graph: EventGraph in object: VR_Conroller with description: Attempted to access index 0 from array ComponentTags of length 0!
+[2018.04.11-15.11.31:211][979]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.11.31:211][979]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.33:364][ 29]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.11.33:364][ 29]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.34:662][ 58]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.11.34:662][ 58]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.35:691][ 81]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.11.35:692][ 81]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.37:739][127]LogScript: Warning: Accessed None trying to read property HitComponentRight
+	VR_Conroller_C /Game/Maps/UEDPIE_0_Apartment.Apartment:PersistentLevel.VR_Conroller_1082
+	Function /Game/CrossScene/Blueprints/VR_Conroller.VR_Conroller_C:ExecuteUbergraph_VR_Conroller:2171
+[2018.04.11-15.11.37:739][127]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property HitComponentRight from function: 'ExecuteUbergraph_VR_Conroller' from node: Branch in graph: EventGraph in object: VR_Conroller with description: Accessed None trying to read property HitComponentRight
+[2018.04.11-15.11.45:424][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.11.45:832][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Apartment.Apartment:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment' with GeneratedClass '/Game/Maps/Apartment.Apartment_C' with ClassGeneratedBy '/Game/Maps/Apartment.Apartment:PersistentLevel.Apartment'
+[2018.04.11-15.12.08:532][814]LogEditorTransaction: Undo Set Rotation
+[2018.04.11-15.12.08:703][822]LogEditorTransaction: Undo Set Location
+[2018.04.11-15.12.08:835][827]LogEditorTransaction: Undo Set Location
+[2018.04.11-15.12.09:013][835]LogEditorTransaction: Undo Change Number Pin Value
+[2018.04.11-15.12.09:159][841]LogEditorTransaction: Undo Create Pin Link
+[2018.04.11-15.12.12:354][ 65]LogEditorTransaction: Undo Break Pin Links
+[2018.04.11-15.12.28:419][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Apartment" FILE="../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.11-15.12.30:089][893]LogSavePackage: Save=1651.11ms
+[2018.04.11-15.12.30:089][893]LogSavePackage: Moving '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Saved/ApartmentA51D86744A3E62023CD8FDBA5879909E.tmp' to '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap'
+[2018.04.11-15.12.30:092][893]LogSavePackage: Display: Finished SavePackage ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap
+[2018.04.11-15.12.53:829][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Apartment" FILE="../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.11-15.12.55:501][891]LogSavePackage: Save=1651.49ms
+[2018.04.11-15.12.55:501][891]LogSavePackage: Moving '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Saved/Apartment6360403640DF1A78922506B14BCE8AFC.tmp' to '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap'
+[2018.04.11-15.12.55:504][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Maps/Apartment.umap
+[2018.04.11-15.13.02:751][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Apartment/ApartmentBlueprints/Cupboard" FILE="../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Apartment/ApartmentBlueprints/Cupboard.uasset" SILENT=true
+[2018.04.11-15.13.02:818][ 76]LogSavePackage: Save=64.08ms
+[2018.04.11-15.13.02:818][ 76]LogSavePackage: Moving '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Saved/CupboardF8E73B9B4B8207BE33AA199A24FEDACE.tmp' to '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Apartment/ApartmentBlueprints/Cupboard.uasset'
+[2018.04.11-15.13.02:820][ 76]LogSavePackage: Display: Finished SavePackage ../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Apartment/ApartmentBlueprints/Cupboard.uasset
+[2018.04.11-15.13.02:897][ 76]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.11-15.13.03:073][ 77]Cmd: QUIT_EDITOR
+[2018.04.11-15.13.03:767][ 77]LogExit: Preparing to exit.
+[2018.04.11-15.13.04:695][ 77]LogDirectoryWatcher: A directory notification for 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Content/' was aborted.
+[2018.04.11-15.13.04:750][ 77]LogExit: Editor shut down
+[2018.04.11-15.13.04:752][ 77]LogExit: Transaction tracking system shut down
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../../../../Temp/PGVR2.0/PGVR_02/PGVR_02/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/FMODStudio/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.11-15.13.04:868][ 77]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.11-15.13.04:945][ 77]LogExit: Object subsystem successfully closed.
+[2018.04.11-15.13.04:968][ 77]LogD3D11RHI: Shutdown
+[2018.04.11-15.13.04:968][ 77]LogD3D11RHI: CleanupD3DDevice
+[2018.04.11-15.13.04:972][ 77]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.11-15.13.04:984][ 77]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
+[2018.04.11-15.13.04:984][ 77]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.04.11-15.13.04:984][ 77]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
+[2018.04.11-15.13.04:984][ 77]LogModuleManager: Shutting down and abandoning module SceneOutliner (550)
+[2018.04.11-15.13.04:984][ 77]LogModuleManager: Shutting down and abandoning module AddContentDialog (548)
+[2018.04.11-15.13.04:984][ 77]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module WidgetCarousel (547)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module EditorWidgets (544)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module CollectionManager (542)
+[2018.04.11-15.13.04:985][ 77]LogDirectoryWatcher: A directory notification for 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Collections/' was aborted.
+[2018.04.11-15.13.04:985][ 77]LogDirectoryWatcher: A directory notification for 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Content/Developers/at9amt/Collections/' was aborted.
+[2018.04.11-15.13.04:985][ 77]LogDirectoryWatcher: A directory notification for 'C:/Temp/PGVR2.0/PGVR_02/PGVR_02/Saved/Collections/' was aborted.
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module StatsViewer (540)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module FoliageEdit (538)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module LandscapeEditor (536)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module MeshPaintMode (534)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (532)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module ActorPickerMode (530)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module GeometryMode (528)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module TextureAlignMode (526)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module BspMode (524)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (522)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module HardwareSurvey (520)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (518)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module AutomationWorker (516)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (514)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (512)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module PlacementMode (511)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (508)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (506)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (504)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (502)
+[2018.04.11-15.13.04:985][ 77]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (500)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (498)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (496)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (494)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (492)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module CharacterAI (490)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AudioCapture (488)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module SequenceRecorder (487)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module SmartSnapping (484)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module SessionServices (482)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module ViewportSnapping (480)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module ViewportInteraction (478)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module ClothPainter (476)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (475)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module LogVisualizer (472)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module IntroTutorials (470)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (469)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (466)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (464)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (462)
+[2018.04.11-15.13.04:986][ 77]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (461)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (458)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (456)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (454)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module InputBindingEditor (452)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module MergeActors (450)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module SizeMap (448)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module TreeMap (446)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module ReferenceViewer (444)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (442)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module LocalizationService (441)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module HardwareTargeting (438)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (436)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module UndoHistory (434)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module XmlParser (432)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module Blutility (430)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (428)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (427)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (424)
+[2018.04.11-15.13.05:824][ 77]LogModuleManager: Shutting down and abandoning module SettingsEditor (422)
+[2018.04.11-15.13.05:825][ 77]LogModuleManager: Shutting down and abandoning module ProjectLauncher (420)
+[2018.04.11-15.13.05:825][ 77]LogModuleManager: Shutting down and abandoning module SessionFrontend (418)
+[2018.04.11-15.13.05:825][ 77]LogModuleManager: Shutting down and abandoning module ProfilerClient (416)
+[2018.04.11-15.13.05:825][ 77]LogModuleManager: Shutting down and abandoning module DeviceManager (414)
+[2018.04.11-15.13.05:825][ 77]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (413)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module AutomationController (410)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module AutomationWindow (408)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module Layers (406)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (404)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module DetailCustomizations (402)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module PackagesDialog (400)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module Persona (398)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (397)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module AnimGraph (395)
+[2018.04.11-15.13.05:888][ 77]LogModuleManager: Shutting down and abandoning module Kismet (392)
+[2018.04.11-15.13.05:894][ 77]LogModuleManager: Shutting down and abandoning module ClassViewer (390)
+[2018.04.11-15.13.05:894][ 77]LogModuleManager: Shutting down and abandoning module Toolbox (388)
+[2018.04.11-15.13.05:894][ 77]LogModuleManager: Shutting down and abandoning module ModuleUI (386)
+[2018.04.11-15.13.05:894][ 77]LogModuleManager: Shutting down and abandoning module MovieSceneTools (384)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module OutputLog (382)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module GammaUI (380)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module Documentation (378)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (376)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module MovieScene (374)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (372)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module LauncherPlatform (370)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module AnalyticsET (368)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module PortalServices (366)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module PortalRpc (364)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module MessagingRpc (362)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module AIModule (360)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module GameplayDebugger (359)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module AITestSuite (357)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module DesktopPlatform (354)
+[2018.04.11-15.13.05:895][ 77]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2018.04.11-15.13.05:917][ 77]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (320)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module SourceControl (291)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2018.04.11-15.13.05:918][ 77]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module MainFrame (276)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module HotReload (275)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2018.04.11-15.13.05:919][ 77]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2018.04.11-15.13.05:920][ 77]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2018.04.11-15.13.05:920][ 77]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2018.04.11-15.13.05:920][ 77]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2018.04.11-15.13.05:920][ 77]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2018.04.11-15.13.06:021][ 77]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2018.04.11-15.13.06:121][ 77]LogModuleManager: Shutting down and abandoning module FMODStudio (252)
+[2018.04.11-15.13.06:326][ 77]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.04.11-15.13.06:326][ 77]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.04.11-15.13.06:326][ 77]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.04.11-15.13.06:326][ 77]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.04.11-15.13.06:326][ 77]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.04.11-15.13.06:326][ 77]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.04.11-15.13.06:327][ 77]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.04.11-15.13.06:333][ 77]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.04.11-15.13.06:334][ 77]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.04.11-15.13.06:336][ 77]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.04.11-15.13.06:337][ 77]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.04.11-15.13.06:347][ 77]LogDerivedDataCache: Shutdown
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.11-15.13.06:347][ 77]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.11-15.13.06:348][ 77]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.11-15.13.06:348][ 77]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.11-15.13.06:348][ 77]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0C778827-402E-B0FF-E4D5-08B799073F6A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=f1a94c9f4ea2862f6ef14985c52957e1%7C%7Caed38978-7903-4a25-92c3-ce1bf6490cdb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.11-15.13.06:372][ 77]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.11-15.13.06:373][ 77]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.11-15.13.06:373][ 77]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.11-15.13.06:373][ 77]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.11-15.13.06:373][ 77]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.11-15.13.06:374][ 77]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.11-15.13.06:375][ 77]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.11-15.13.06:378][ 77]LogExit: Exiting.
+[2018.04.11-15.13.06:391][ 77]Log file closed, 04/11/18 16:13:06
